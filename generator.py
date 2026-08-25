@@ -9,7 +9,7 @@ import urllib.request
 from pathlib import Path
 from fpdf import FPDF
 
-FONT_DIR = Path(__file__).parent / "fonts"
+FONT_DIR = Path(__file__).parent
 FONT_URLS = {
     "Sarabun-Regular.ttf": (
         "https://raw.githubusercontent.com/google/fonts/main/ofl/sarabun/Sarabun-Regular.ttf"
