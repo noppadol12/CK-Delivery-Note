@@ -29,9 +29,6 @@ def _ensure_fonts():
             urllib.request.urlretrieve(url, str(dest))
 
 
-_ensure_fonts()
-
-
 class DeliveryPDF(FPDF):
     def __init__(self):
         super().__init__(orientation="P", unit="mm", format="A4")
