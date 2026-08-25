@@ -1,0 +1,4 @@
+.env
+fonts/*.ttf
+__pycache__/
+*.pyc
